@@ -1,7 +1,7 @@
 var apiKey = require('./../.env').apiKey;
 
 Doctor = function() {
-}
+};
 
 Doctor.prototype.getDoctors = function(doctorName, condition) {
   console.log('getDoctors');
@@ -11,7 +11,7 @@ Doctor.prototype.getDoctors = function(doctorName, condition) {
       $('#available').empty();
       $('#show-doctors').text('Sorry, no doctors available');
     } else {
-      $('#available').text('List of doctors for ' + condition + ' in the Portland area:');
+      $('#available').text('List of doctors for in the Portland area:');
       for (i = 0; i < response.data.length; i++) {
           $('#show-doctors').append('<li>' + response.data[i].profile.first_name + ' ' + response.data[i].profile.last_name  + '</li>');
       }

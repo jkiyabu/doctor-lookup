@@ -1,0 +1,19 @@
+{
+  "name": "doctor-lookup",
+  "version": "1.0.0",
+  "description": "look up list of doctors for medical condition",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkiyabu/doctor-lookup.git"
+  },
+  "author": "Jayeson Kiyabu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jkiyabu/doctor-lookup/issues"
+  },
+  "homepage": "https://github.com/jkiyabu/doctor-lookup#readme"
+}

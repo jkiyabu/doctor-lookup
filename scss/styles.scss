@@ -1,0 +1,26 @@
+$red : #BC2100;
+
+.body {
+  background: lightyellow;
+  font-family: sans-serif;
+  .jumbotron {
+    background-color: $red;
+    color: white;
+    text-align: center;
+  }
+  h1 {
+    font-weight: bolder;
+    font-variant: small-caps;
+    font-size: 60px;
+  }
+  .btn {
+    font-weight: bold;
+    text-align: center;
+    background: $red;
+    color: white;
+  }
+  img {
+    width: 300px;
+    height: auto;
+  }
+}

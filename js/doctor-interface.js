@@ -4,9 +4,11 @@ $(document).ready(function() {
     $('#condition-form').submit(function() {
         event.preventDefault();
         var condition = $('#condition').val();
+        var doctorName = $('#doctor-name').val();
         $('#condition').val('');
+        $('#doctor-name').val('');
         $('#show-doctors').empty();
         var doctorsList = new Doctor();
-        doctorsList.getDoctors(condition);
+        doctorsList.getDoctors(doctorName, condition);
     });
 });

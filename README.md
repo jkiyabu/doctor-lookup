@@ -18,7 +18,7 @@
 *  from parent directory in terminal, run "gulp serve"
 
 ## Known Bugs
-_CSS does not function properly on pages needing Id in the url._
+_no known bugs._
 
 ## Technologies Used
 * _HTML_
